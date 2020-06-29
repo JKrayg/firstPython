@@ -33,11 +33,7 @@ a = x * y
 
 #Casting
 x = str(x)
+y = int(y)
+z = float(y)
 
-
-
-
-
-
-
-print(x)
+print(type(z), z)
